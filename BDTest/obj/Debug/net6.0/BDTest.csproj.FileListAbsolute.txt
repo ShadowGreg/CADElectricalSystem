@@ -1,0 +1,15 @@
+C:\workspace\CADElectricalSystem\BDTest\bin\Debug\net6.0\BDTest.deps.json
+C:\workspace\CADElectricalSystem\BDTest\bin\Debug\net6.0\BDTest.dll
+C:\workspace\CADElectricalSystem\BDTest\bin\Debug\net6.0\BDTest.pdb
+C:\workspace\CADElectricalSystem\BDTest\bin\Debug\net6.0\Core.dll
+C:\workspace\CADElectricalSystem\BDTest\bin\Debug\net6.0\Core.pdb
+C:\workspace\CADElectricalSystem\BDTest\obj\Debug\net6.0\BDTest.csproj.AssemblyReference.cache
+C:\workspace\CADElectricalSystem\BDTest\obj\Debug\net6.0\BDTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\CADElectricalSystem\BDTest\obj\Debug\net6.0\BDTest.AssemblyInfoInputs.cache
+C:\workspace\CADElectricalSystem\BDTest\obj\Debug\net6.0\BDTest.AssemblyInfo.cs
+C:\workspace\CADElectricalSystem\BDTest\obj\Debug\net6.0\BDTest.csproj.CoreCompileInputs.cache
+C:\workspace\CADElectricalSystem\BDTest\obj\Debug\net6.0\BDTest.csproj.CopyComplete
+C:\workspace\CADElectricalSystem\BDTest\obj\Debug\net6.0\BDTest.dll
+C:\workspace\CADElectricalSystem\BDTest\obj\Debug\net6.0\refint\BDTest.dll
+C:\workspace\CADElectricalSystem\BDTest\obj\Debug\net6.0\BDTest.pdb
+C:\workspace\CADElectricalSystem\BDTest\obj\Debug\net6.0\ref\BDTest.dll

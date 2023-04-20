@@ -1,0 +1,15 @@
+C:\workspace\CADElectricalSystem\CADElectricalSystem\bin\Debug\net6.0\CADElectricalSystem.exe
+C:\workspace\CADElectricalSystem\CADElectricalSystem\bin\Debug\net6.0\CADElectricalSystem.deps.json
+C:\workspace\CADElectricalSystem\CADElectricalSystem\bin\Debug\net6.0\CADElectricalSystem.runtimeconfig.json
+C:\workspace\CADElectricalSystem\CADElectricalSystem\bin\Debug\net6.0\CADElectricalSystem.dll
+C:\workspace\CADElectricalSystem\CADElectricalSystem\bin\Debug\net6.0\CADElectricalSystem.pdb
+C:\workspace\CADElectricalSystem\CADElectricalSystem\obj\Debug\net6.0\CADElectricalSystem.csproj.AssemblyReference.cache
+C:\workspace\CADElectricalSystem\CADElectricalSystem\obj\Debug\net6.0\CADElectricalSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\CADElectricalSystem\CADElectricalSystem\obj\Debug\net6.0\CADElectricalSystem.AssemblyInfoInputs.cache
+C:\workspace\CADElectricalSystem\CADElectricalSystem\obj\Debug\net6.0\CADElectricalSystem.AssemblyInfo.cs
+C:\workspace\CADElectricalSystem\CADElectricalSystem\obj\Debug\net6.0\CADElectricalSystem.csproj.CoreCompileInputs.cache
+C:\workspace\CADElectricalSystem\CADElectricalSystem\obj\Debug\net6.0\CADElectricalSystem.dll
+C:\workspace\CADElectricalSystem\CADElectricalSystem\obj\Debug\net6.0\refint\CADElectricalSystem.dll
+C:\workspace\CADElectricalSystem\CADElectricalSystem\obj\Debug\net6.0\CADElectricalSystem.pdb
+C:\workspace\CADElectricalSystem\CADElectricalSystem\obj\Debug\net6.0\CADElectricalSystem.genruntimeconfig.cache
+C:\workspace\CADElectricalSystem\CADElectricalSystem\obj\Debug\net6.0\ref\CADElectricalSystem.dll
