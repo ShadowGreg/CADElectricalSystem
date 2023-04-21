@@ -38,12 +38,12 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Busbar\Busbar.cs" />
+        <Compile Include="Calculations\TnCalculation.cs" />
         <Compile Include="Consumer\BaseConsumer.cs" />
-        <Compile Include="Consumer\ConsumerController.cs" />
+        <Compile Include="Consumer\ConsumerFiller.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Calculations" />
+        <Compile Include="Service\IdGenerator.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
