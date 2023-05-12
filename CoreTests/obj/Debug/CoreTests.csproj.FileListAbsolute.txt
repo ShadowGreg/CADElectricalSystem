@@ -1,0 +1,11 @@
+C:\workspace\CADElectricalSystem\CoreTests\bin\Debug\CoreTests.dll
+C:\workspace\CADElectricalSystem\CoreTests\bin\Debug\CoreTests.pdb
+C:\workspace\CADElectricalSystem\CoreTests\bin\Debug\Core.dll
+C:\workspace\CADElectricalSystem\CoreTests\bin\Debug\nunit.framework.dll
+C:\workspace\CADElectricalSystem\CoreTests\bin\Debug\Core.pdb
+C:\workspace\CADElectricalSystem\CoreTests\bin\Debug\nunit.framework.xml
+C:\workspace\CADElectricalSystem\CoreTests\obj\Debug\CoreTests.csproj.AssemblyReference.cache
+C:\workspace\CADElectricalSystem\CoreTests\obj\Debug\CoreTests.csproj.CoreCompileInputs.cache
+C:\workspace\CADElectricalSystem\CoreTests\obj\Debug\CoreTests.csproj.CopyComplete
+C:\workspace\CADElectricalSystem\CoreTests\obj\Debug\CoreTests.dll
+C:\workspace\CADElectricalSystem\CoreTests\obj\Debug\CoreTests.pdb
