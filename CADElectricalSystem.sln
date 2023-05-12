@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDTest", "BDTest\BDTest.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBTesting", "DBTesting\DBTesting.csproj", "{1A9F6C9E-CF80-45F8-ACD4-9032012E9755}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreTests", "CoreTests\CoreTests.csproj", "{72BADBDD-623A-468E-80A9-CBDDCB1E070B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{6CB9227A-1C18-42CD-8AE3-D24E20EF3073}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,13 @@ Global
 		{1A9F6C9E-CF80-45F8-ACD4-9032012E9755}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A9F6C9E-CF80-45F8-ACD4-9032012E9755}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A9F6C9E-CF80-45F8-ACD4-9032012E9755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BADBDD-623A-468E-80A9-CBDDCB1E070B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BADBDD-623A-468E-80A9-CBDDCB1E070B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BADBDD-623A-468E-80A9-CBDDCB1E070B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BADBDD-623A-468E-80A9-CBDDCB1E070B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB9227A-1C18-42CD-8AE3-D24E20EF3073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB9227A-1C18-42CD-8AE3-D24E20EF3073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB9227A-1C18-42CD-8AE3-D24E20EF3073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB9227A-1C18-42CD-8AE3-D24E20EF3073}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

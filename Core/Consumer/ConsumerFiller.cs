@@ -9,6 +9,9 @@
         FOUR_HUNDRED = 400
     }
 
+    /// <summary>
+    /// Техническая прослойка для заполнения полей потребителя
+    /// </summary>
     public class ConsumerFiller: BaseConsumer {
         public ConsumerFiller() {
             base.LoadType = ConsumerType.MOTOR.ToString();
@@ -133,6 +136,7 @@
                 else {
                     Voltage = (double)VoltageMode.FOUR_HUNDRED;
                 }
+
                 FillConsumerController();
             }
         }

@@ -5,7 +5,7 @@ using Core;
 namespace DBTesting;
 
 public class ConsumerFillerTest {
-    private readonly Class1 cl = new();
+    private readonly Class1 _cl = new();
     private ConsumerFiller bc;
 
     [Test]
@@ -233,22 +233,22 @@ public class ConsumerFillerTest {
         };
         bc.FillConsumerController();
         ConsumerFiller first = bc;
-        cl.BaseCons.Add(first);
-        cl.SaveChanges();
+        _cl.BaseCons.Add(first);
+        _cl.SaveChanges();
 
         bc.LoadType = ConsumerType.CONSUMER.ToString();
         bc.RatedElectricPower = 300;
         
-        cl.BaseCons.Add(bc);
-        cl.SaveChanges();
+        _cl.BaseCons.Add(bc);
+        _cl.SaveChanges();
 
-        var data = cl.BaseCons.ToList();
+        var data = _cl.BaseCons.ToList();
 
         Assert.IsNotNull(data);
         foreach (ConsumerFiller item in data) {
-            cl.RemoveRange(item);
+            _cl.RemoveRange(item);
         }
 
-        cl.SaveChanges();
+        _cl.SaveChanges();
     }
 }

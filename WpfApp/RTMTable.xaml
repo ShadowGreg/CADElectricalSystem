@@ -1,0 +1,96 @@
+﻿<Page
+    Title="RTMTable"
+    mc:Ignorable="d"
+    x:Class="WpfApp.RTMTable"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WpfApp"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <DataGrid
+            AlternatingRowBackground="White"
+            AutoGenerateColumns="False"
+            HorizontalGridLinesBrush="DarkGray"
+            RowBackground="LightGray"
+            x:Name="phonesGrid">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                    Binding="{Binding Path=Title}"
+                    Header="Наименование ЭП"
+                    Width="190" />
+                <DataGridHyperlinkColumn
+                    Binding="{Binding Path=Company}"
+                    Header="n, шт."
+                    Width="80" />
+                <DataGridTextColumn
+                    Binding="{Binding Path=Price}"
+                    Header="pн"
+                    Width="50" />
+                <DataGridTextColumn
+                    Binding="{Binding Path=Price}"
+                    Header="Pн"
+                    Width="50" />
+                <DataGridTextColumn
+                    Binding="{Binding Path=Price}"
+                    Header="Kи"
+                    Width="50" />
+                <DataGridTextColumn
+                    Binding="{Binding Path=Price}"
+                    Header="cosφ"
+                    Width="50" />
+                <DataGridTextColumn
+                    Binding="{Binding Path=Price}"
+                    Header="tgφ"
+                    Width="50" />
+                <DataGridTextColumn
+                    Binding="{Binding Path=Price}"
+                    Header="Pс.р."
+                    Width="50" />
+                <DataGridTextColumn
+                    Binding="{Binding Path=Price}"
+                    Header="Qс.р"
+                    Width="50" />
+                <DataGridTextColumn
+                    Binding="{Binding Path=Price}"
+                    Header="n(pн)2"
+                    Width="50" />
+                <DataGridTextColumn
+                    Binding="{Binding Path=Price}"
+                    Header="nэ"
+                    Width="50" />
+                <DataGridTextColumn
+                    Binding="{Binding Path=Price}"
+                    Header="Kр"
+                    Width="50" />
+                <DataGridTextColumn
+                    Binding="{Binding Path=Price}"
+                    Header="Pр"
+                    Width="50" />
+                <DataGridTextColumn
+                    Binding="{Binding Path=Price}"
+                    Header="Qр"
+                    Width="50" />
+                <DataGridTextColumn
+                    Binding="{Binding Path=Price}"
+                    Header="Sр"
+                    Width="50" />
+                <DataGridTextColumn
+                    Binding="{Binding Path=Price}"
+                    Header="Iр"
+                    Width="50" />
+            </DataGrid.Columns>
+
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Path=Price}" />
+                        <TextBlock Text=" рублей по скидке" />
+                    </StackPanel>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+
+        </DataGrid>
+    </Grid>
+</Page>

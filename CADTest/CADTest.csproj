@@ -32,8 +32,8 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
-        <Reference Include="ACadSharp, Version=1.4.2.0, Culture=neutral, processorArchitecture=MSIL">
-          <HintPath>..\packages\ACadSharp.1.4.2-alpha\lib\net48\ACadSharp.dll</HintPath>
+        <Reference Include="ACadSharp, Version=1.4.3.0, Culture=neutral, processorArchitecture=MSIL">
+          <HintPath>..\packages\ACadSharp.1.4.3-alpha\lib\net48\ACadSharp.dll</HintPath>
         </Reference>
         <Reference Include="mscorlib" />
         <Reference Include="System" />

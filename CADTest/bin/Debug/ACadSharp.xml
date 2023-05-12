@@ -177,6 +177,11 @@
         <member name="P:ACadSharp.Blocks.Block.ObjectName">
             <inheritdoc/>
         </member>
+        <member name="P:ACadSharp.Blocks.Block.BlockOwner">
+            <summary>
+            Block record that owns this entity
+            </summary>
+        </member>
         <member name="P:ACadSharp.Blocks.Block.Name">
             <summary>
             Specifies the name of the object.
@@ -202,6 +207,12 @@
             Specifies the comments for the block or drawing.
             </summary>
         </member>
+        <member name="M:ACadSharp.Blocks.Block.Clone">
+            <inheritdoc/>
+            <remarks>
+            Cloning a block will also unatach it from the record
+            </remarks>
+        </member>
         <member name="T:ACadSharp.Blocks.BlockEnd">
             <summary>
             Represents a <see cref="T:ACadSharp.Blocks.BlockEnd"/> entity
@@ -210,6 +221,9 @@
             Object name <see cref="F:ACadSharp.DxfFileToken.EndBlock"/> <br/>
             Dxf class name <see cref="F:ACadSharp.DxfSubclassMarker.BlockEnd"/>
             </remarks>
+        </member>
+        <member name="M:ACadSharp.Blocks.BlockEnd.Clone">
+            <inheritdoc/>
         </member>
         <member name="T:ACadSharp.Blocks.BlockTypeFlags">
             <summary>
@@ -920,7 +934,7 @@
             Specifies the tag string of the object
             </summary>
             <value>
-            Cannot contain spaces
+            Cannot contain spaces (not applied)
             </value> 
         </member>
         <member name="P:ACadSharp.Entities.AttributeBase.Flags">
@@ -2084,6 +2098,14 @@
         <member name="P:ACadSharp.Entities.Insert.ObjectName">
             <inheritdoc/>
         </member>
+        <member name="P:ACadSharp.Entities.Insert.Attributes">
+            <summary>
+            Attributes from the block reference
+            </summary>
+            <remarks>
+            If an attribute should be added in this collection a definition will be added into the block reference as well
+            </remarks>
+        </member>
         <member name="P:ACadSharp.Entities.Insert.Block">
             <summary>
             Gets the insert block definition
@@ -2141,6 +2163,22 @@
             <summary>
             Row spacing
             </summary>
+        </member>
+        <member name="M:ACadSharp.Entities.Insert.#ctor(ACadSharp.Tables.BlockRecord)">
+            <summary>
+            Constructor to reference an insert to a block record
+            </summary>
+            <param name="block">Block Record to reference</param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="M:ACadSharp.Entities.Insert.UpdateAttributes">
+            <summary>
+            Updates all attribute definitions contained in the block reference as Attribute entitites in the insert
+            </summary>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:ACadSharp.Entities.Insert.Clone">
+            <inheritdoc/>
         </member>
         <member name="T:ACadSharp.Entities.InvisibleEdgeFlags">
             <summary>
@@ -7751,6 +7789,11 @@
         <member name="P:ACadSharp.Tables.BlockRecord.Layout">
             <summary>
             Associated Layout
+            </summary>
+        </member>
+        <member name="P:ACadSharp.Tables.BlockRecord.AttributeDefinitions">
+            <summary>
+            Attribute definitions in this block
             </summary>
         </member>
         <member name="P:ACadSharp.Tables.BlockRecord.HasAttributes">
