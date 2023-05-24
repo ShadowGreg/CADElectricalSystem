@@ -4,14 +4,29 @@
     "C:\\workspace\\CADElectricalSystem\\DBTesting\\DBTesting.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\CADElectricalSystem\\BDTest\\BDTest.csproj": {
+    "C:\\workspace\\CADElectricalSystem\\Core\\Core.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\workspace\\CADElectricalSystem\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\workspace\\CADElectricalSystem\\Core\\Core.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\workspace\\CADElectricalSystem\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\CADElectricalSystem\\BDTest\\BDTest.csproj",
-        "projectName": "BDTest",
-        "projectPath": "C:\\workspace\\CADElectricalSystem\\BDTest\\BDTest.csproj",
+        "projectUniqueName": "C:\\workspace\\CADElectricalSystem\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\workspace\\CADElectricalSystem\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\shado\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\CADElectricalSystem\\BDTest\\obj\\",
+        "outputPath": "C:\\workspace\\CADElectricalSystem\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\DevExpress 22.1\\Components\\Offline Packages",
@@ -78,21 +93,6 @@
         }
       }
     },
-    "C:\\workspace\\CADElectricalSystem\\Core\\Core.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\workspace\\CADElectricalSystem\\Core\\Core.csproj",
-        "projectName": "Core",
-        "projectPath": "C:\\workspace\\CADElectricalSystem\\Core\\Core.csproj",
-        "frameworks": {
-          "net48": {
-            "projectReferences": {}
-          }
-        }
-      },
-      "frameworks": {
-        "net48": {}
-      }
-    },
     "C:\\workspace\\CADElectricalSystem\\DBTesting\\DBTesting.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -126,8 +126,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\workspace\\CADElectricalSystem\\BDTest\\BDTest.csproj": {
-                "projectPath": "C:\\workspace\\CADElectricalSystem\\BDTest\\BDTest.csproj"
+              "C:\\workspace\\CADElectricalSystem\\Data\\Data.csproj": {
+                "projectPath": "C:\\workspace\\CADElectricalSystem\\Data\\Data.csproj"
               }
             }
           }

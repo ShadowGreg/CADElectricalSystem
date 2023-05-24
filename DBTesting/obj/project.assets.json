@@ -1489,20 +1489,6 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "BDTest/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Core": "1.0.0",
-          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0-preview.3.23174.2"
-        },
-        "compile": {
-          "bin/placeholder/BDTest.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BDTest.dll": {}
-        }
-      },
       "Core/1.0.0": {
         "type": "project",
         "compile": {
@@ -1510,6 +1496,20 @@
         },
         "runtime": {
           "bin/placeholder/Core.dll": {}
+        }
+      },
+      "Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.0-preview.3.23174.2"
+        },
+        "compile": {
+          "bin/placeholder/Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Data.dll": {}
         }
       }
     }
@@ -5181,20 +5181,20 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "BDTest/1.0.0": {
-      "type": "project",
-      "path": "../BDTest/BDTest.csproj",
-      "msbuildProject": "../BDTest/BDTest.csproj"
-    },
     "Core/1.0.0": {
       "type": "project",
       "path": "../Core/Core.csproj",
       "msbuildProject": "../Core/Core.csproj"
+    },
+    "Data/1.0.0": {
+      "type": "project",
+      "path": "../Data/Data.csproj",
+      "msbuildProject": "../Data/Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "BDTest >= 1.0.0",
+      "Data >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
@@ -5240,8 +5240,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\workspace\\CADElectricalSystem\\BDTest\\BDTest.csproj": {
-              "projectPath": "C:\\workspace\\CADElectricalSystem\\BDTest\\BDTest.csproj"
+            "C:\\workspace\\CADElectricalSystem\\Data\\Data.csproj": {
+              "projectPath": "C:\\workspace\\CADElectricalSystem\\Data\\Data.csproj"
             }
           }
         }

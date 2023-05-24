@@ -9,6 +9,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:WpfApp"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModelEntity="clr-namespace:WpfApp.ViewModelEntity"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Grid>
         <Grid.RowDefinitions>
@@ -40,7 +41,7 @@
             BorderThickness="1"
             Grid.Column="1"
             Grid.Row="1">
-            <Frame Source="RTMTable.xaml" />
+            <Frame Source="../Views/RTMTable.xaml" />
         </Border>
         <Border
             Background="LightBlue"
@@ -112,6 +113,10 @@
                 <MenuItem Header="_Расчёт">
                     <MenuItem Header="_About" />
                 </MenuItem>
+                <MenuItem Header="_Главный экран">
+                    <MenuItem Header="_Баланс мощности" />
+                    <MenuItem Header="_Однолинейная приниципиальная схема" />
+                </MenuItem>
                 <MenuItem Header="_Help">
                     <MenuItem Header="_About" />
                 </MenuItem>
@@ -128,7 +133,7 @@
                 Foreground="BlanchedAlmond"
                 Height="40"
                 SelectionBrush="Aqua"
-                Text="Здесь будет идти история операций                  Здесь будет идти история операций                 Здесь будет идти история операций                 Здесь будет идти история операций                 Здесь будет идти история операций                 Здесь будет идти история операций                 Здесь будет идти история операций                 Здесь будет идти история операций"
+                Text="{Binding Text}"
                 TextWrapping="Wrap"
                 VerticalScrollBarVisibility="Auto" />
         </Border>

@@ -14,5 +14,5 @@ C:\workspace\CADElectricalSystem\WpfApp\obj\Debug\WpfApp.csproj.GenerateResource
 C:\workspace\CADElectricalSystem\WpfApp\obj\Debug\WpfApp.csproj.CoreCompileInputs.cache
 C:\workspace\CADElectricalSystem\WpfApp\obj\Debug\WpfApp.exe
 C:\workspace\CADElectricalSystem\WpfApp\obj\Debug\WpfApp.pdb
-C:\workspace\CADElectricalSystem\WpfApp\obj\Debug\RTMTable.g.cs
-C:\workspace\CADElectricalSystem\WpfApp\obj\Debug\RTMTable.baml
+C:\workspace\CADElectricalSystem\WpfApp\obj\Debug\Views\RTMTable.g.cs
+C:\workspace\CADElectricalSystem\WpfApp\obj\Debug\Views\RTMTable.baml

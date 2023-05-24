@@ -5,13 +5,13 @@ using Core;
 namespace DBTesting;
 
 public class ConsumerFillerTest {
-    private readonly Class1 _cl = new();
-    private ConsumerFiller bc;
+    private readonly BaseProjectedObject _baseProjectedObject = new();
+    private ConsumerFiller _consumerFiller;
 
     [Test]
     public void Creation_Class_Instance_With_Load_Type_Motor_Test() {
         // Arrange
-        bc = new ConsumerFiller(ConsumerType.MOTOR)
+        _consumerFiller = new ConsumerFiller(ConsumerType.MOTOR)
         {
             TechnologicalName = "Test",
             MechanismName = "Test",
@@ -31,17 +31,17 @@ public class ConsumerFillerTest {
         const double expectedRatedCurrent = 19.63877742064297d;
         
         // Act
-        bc.FillConsumerController();
+        _consumerFiller.FillConsumerController();
         
         // Assert
-        double actualRatedCurrent = bc.RatedCurrent;
+        double actualRatedCurrent = _consumerFiller.RatedCurrent;
         Assert.That(actualRatedCurrent, Is.EqualTo(expectedRatedCurrent));
     }
 
     [Test]
     public void Change_The_Load_Type_The_Rated_Current_Is_Calculated_Test() {
         // Arrange
-        bc = new ConsumerFiller(ConsumerType.MOTOR)
+        _consumerFiller = new ConsumerFiller(ConsumerType.MOTOR)
         {
             TechnologicalName = "Test1",
             StartingCurrentMultiplicity = 1.5,
@@ -56,21 +56,21 @@ public class ConsumerFillerTest {
             ClassificationEquipmentInstallation = "Test",
             Voltage = 400
         };
-        bc.FillConsumerController();
-        double firstRatedCurrent = bc.RatedCurrent;
+        _consumerFiller.FillConsumerController();
+        double firstRatedCurrent = _consumerFiller.RatedCurrent;
         
         // Act
-        bc.LoadType = ConsumerType.CONSUMER.ToString();
+        _consumerFiller.LoadType = ConsumerType.CONSUMER.ToString();
         
         // Assert
-        double secondRatedCurrent = bc.RatedCurrent;
+        double secondRatedCurrent = _consumerFiller.RatedCurrent;
         Assert.That(secondRatedCurrent, Is.Not.EqualTo(firstRatedCurrent));
     }
     
     [Test]
     public void Change_The_RatedElectricPower_The_Rated_Current_Is_Calculated_Test() {
         // Arrange
-        bc = new ConsumerFiller(ConsumerType.MOTOR)
+        _consumerFiller = new ConsumerFiller(ConsumerType.MOTOR)
         {
             TechnologicalName = "Test1",
             StartingCurrentMultiplicity = 1.5,
@@ -85,21 +85,21 @@ public class ConsumerFillerTest {
             ClassificationEquipmentInstallation = "Test",
             Voltage = 400
         };
-        bc.FillConsumerController();
-        double firstRatedCurrent = bc.RatedCurrent;
+        _consumerFiller.FillConsumerController();
+        double firstRatedCurrent = _consumerFiller.RatedCurrent;
         
         // Act
-        bc.RatedElectricPower = 0.75;
+        _consumerFiller.RatedElectricPower = 0.75;
         
         // Assert
-        double secondRatedCurrent = bc.RatedCurrent;
+        double secondRatedCurrent = _consumerFiller.RatedCurrent;
         Assert.That(secondRatedCurrent, Is.Not.EqualTo(firstRatedCurrent));
     }
     
     [Test]
     public void Change_The_PowerFactor_The_Rated_Current_Is_Calculated_Test() {
         // Arrange
-        bc = new ConsumerFiller(ConsumerType.MOTOR)
+        _consumerFiller = new ConsumerFiller(ConsumerType.MOTOR)
         {
             TechnologicalName = "Test1",
             StartingCurrentMultiplicity = 1.5,
@@ -114,21 +114,21 @@ public class ConsumerFillerTest {
             ClassificationEquipmentInstallation = "Test",
             Voltage = 400
         };
-        bc.FillConsumerController();
-        double firstRatedCurrent = bc.RatedCurrent;
+        _consumerFiller.FillConsumerController();
+        double firstRatedCurrent = _consumerFiller.RatedCurrent;
         
         // Act
-        bc.PowerFactor = 0.5;
+        _consumerFiller.PowerFactor = 0.5;
         
         // Assert
-        double secondRatedCurrent = bc.RatedCurrent;
+        double secondRatedCurrent = _consumerFiller.RatedCurrent;
         Assert.That(secondRatedCurrent, Is.Not.EqualTo(firstRatedCurrent));
     }
     
     [Test]
     public void Change_The_EfficiencyFactor_The_Rated_Current_Is_Calculated_Test() {
         // Arrange
-        bc = new ConsumerFiller(ConsumerType.MOTOR)
+        _consumerFiller = new ConsumerFiller(ConsumerType.MOTOR)
         {
             TechnologicalName = "Test1",
             StartingCurrentMultiplicity = 1.5,
@@ -143,14 +143,14 @@ public class ConsumerFillerTest {
             ClassificationEquipmentInstallation = "Test",
             Voltage = 400
         };
-        bc.FillConsumerController();
-        double firstRatedCurrent = bc.RatedCurrent;
+        _consumerFiller.FillConsumerController();
+        double firstRatedCurrent = _consumerFiller.RatedCurrent;
         
         // Act
-        bc.EfficiencyFactor = 0.5;
+        _consumerFiller.EfficiencyFactor = 0.5;
         
         // Assert
-        double secondRatedCurrent = bc.RatedCurrent;
+        double secondRatedCurrent = _consumerFiller.RatedCurrent;
         Assert.That(secondRatedCurrent, Is.Not.EqualTo(firstRatedCurrent));
     }
     
@@ -158,7 +158,7 @@ public class ConsumerFillerTest {
     [Test]
     public void Change_The_PhaseNumber_The_Rated_Current_Is_Calculated_Test() {
         // Arrange
-        bc = new ConsumerFiller(ConsumerType.MOTOR)
+        _consumerFiller = new ConsumerFiller(ConsumerType.MOTOR)
         {
             TechnologicalName = "Test1",
             StartingCurrentMultiplicity = 1.5,
@@ -173,14 +173,14 @@ public class ConsumerFillerTest {
             ClassificationEquipmentInstallation = "Test",
             Voltage = 400
         };
-        bc.FillConsumerController();
-        double firstRatedCurrent = bc.RatedCurrent;
+        _consumerFiller.FillConsumerController();
+        double firstRatedCurrent = _consumerFiller.RatedCurrent;
         
         // Act
-        bc.PhaseNumber = 1;
+        _consumerFiller.PhaseNumber = 1;
         
         // Assert
-        double secondRatedCurrent = bc.RatedCurrent;
+        double secondRatedCurrent = _consumerFiller.RatedCurrent;
         Assert.That(secondRatedCurrent, Is.Not.EqualTo(firstRatedCurrent));
     }
     
@@ -188,7 +188,7 @@ public class ConsumerFillerTest {
     [Test]
     public void Change_The_StartingCurrentMultiplicity_The_Rated_Current_Is_Calculated_Test() {
         // Arrange
-        bc = new ConsumerFiller(ConsumerType.MOTOR)
+        _consumerFiller = new ConsumerFiller(ConsumerType.MOTOR)
         {
             TechnologicalName = "Test1",
             StartingCurrentMultiplicity = 1.5,
@@ -203,20 +203,20 @@ public class ConsumerFillerTest {
             ClassificationEquipmentInstallation = "Test",
             Voltage = 400
         };
-        bc.FillConsumerController();
-        double firstStartingCurrent = bc.StartingCurrent;
+        _consumerFiller.FillConsumerController();
+        double firstStartingCurrent = _consumerFiller.StartingCurrent;
         
         // Act
-        bc.StartingCurrentMultiplicity = 7;
+        _consumerFiller.StartingCurrentMultiplicity = 7;
         
         // Assert
-        double secondStartingCurrent = bc.StartingCurrent;
+        double secondStartingCurrent = _consumerFiller.StartingCurrent;
         Assert.That(secondStartingCurrent, Is.Not.EqualTo(firstStartingCurrent));
     }
     
     [Test]
     public void reload_consumer_test() {
-        bc = new ConsumerFiller(ConsumerType.MOTOR)
+        _consumerFiller = new ConsumerFiller(ConsumerType.MOTOR)
         {
             TechnologicalName = "Электродвигатель",
             LoadType = "Test",
@@ -231,24 +231,24 @@ public class ConsumerFillerTest {
             LocationEquipmentInstallation = "Test",
             ClassificationEquipmentInstallation = "Test",
         };
-        bc.FillConsumerController();
-        ConsumerFiller first = bc;
-        _cl.BaseCons.Add(first);
-        _cl.SaveChanges();
+        _consumerFiller.FillConsumerController();
+        ConsumerFiller first = _consumerFiller;
+        _baseProjectedObject.BaseCons.Add(first);
+        _baseProjectedObject.SaveChanges();
 
-        bc.LoadType = ConsumerType.CONSUMER.ToString();
-        bc.RatedElectricPower = 300;
+        _consumerFiller.LoadType = ConsumerType.CONSUMER.ToString();
+        _consumerFiller.RatedElectricPower = 300;
         
-        _cl.BaseCons.Add(bc);
-        _cl.SaveChanges();
+        _baseProjectedObject.BaseCons.Add(_consumerFiller);
+        _baseProjectedObject.SaveChanges();
 
-        var data = _cl.BaseCons.ToList();
+        var data = _baseProjectedObject.BaseCons.ToList();
 
         Assert.IsNotNull(data);
         foreach (ConsumerFiller item in data) {
-            _cl.RemoveRange(item);
+            _baseProjectedObject.RemoveRange(item);
         }
 
-        _cl.SaveChanges();
+        _baseProjectedObject.SaveChanges();
     }
 }

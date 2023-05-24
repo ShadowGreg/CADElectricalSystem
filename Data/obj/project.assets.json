@@ -1236,11 +1236,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\CADElectricalSystem\\BDTest\\BDTest.csproj",
-      "projectName": "BDTest",
-      "projectPath": "C:\\workspace\\CADElectricalSystem\\BDTest\\BDTest.csproj",
+      "projectUniqueName": "C:\\workspace\\CADElectricalSystem\\Data\\Data.csproj",
+      "projectName": "Data",
+      "projectPath": "C:\\workspace\\CADElectricalSystem\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\shado\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\CADElectricalSystem\\BDTest\\obj\\",
+      "outputPath": "C:\\workspace\\CADElectricalSystem\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\DevExpress 22.1\\Components\\Offline Packages",
