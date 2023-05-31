@@ -4,12 +4,7 @@ C:\workspace\CADElectricalSystem\CADTest\bin\Debug\ACadSharp.dll
 C:\workspace\CADElectricalSystem\CADTest\bin\Debug\System.Buffers.dll
 C:\workspace\CADElectricalSystem\CADTest\bin\Debug\System.Memory.dll
 C:\workspace\CADElectricalSystem\CADTest\bin\Debug\System.Numerics.Vectors.dll
-C:\workspace\CADElectricalSystem\CADTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\workspace\CADElectricalSystem\CADTest\bin\Debug\ACadSharp.xml
-C:\workspace\CADElectricalSystem\CADTest\bin\Debug\System.Buffers.xml
-C:\workspace\CADElectricalSystem\CADTest\bin\Debug\System.Memory.xml
-C:\workspace\CADElectricalSystem\CADTest\bin\Debug\System.Numerics.Vectors.xml
-C:\workspace\CADElectricalSystem\CADTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\workspace\CADElectricalSystem\CADTest\obj\Debug\CADTest.csproj.AssemblyReference.cache
 C:\workspace\CADElectricalSystem\CADTest\obj\Debug\CADTest.csproj.CoreCompileInputs.cache
 C:\workspace\CADElectricalSystem\CADTest\obj\Debug\CADTest.csproj.CopyComplete

@@ -8,13 +8,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{7D9DD448-8CDE-4D26-A88E-5E0A125C74A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDTest", "BDTest\BDTest.csproj", "{642EE09C-0FA7-4D93-B560-512975985857}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{642EE09C-0FA7-4D93-B560-512975985857}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBTesting", "DBTesting\DBTesting.csproj", "{1A9F6C9E-CF80-45F8-ACD4-9032012E9755}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWpfApp", "TestWpfApp\TestWpfApp.csproj", "{3AF82896-7EBE-4094-A181-245B48F0F3E0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "..\CADElectricalSystem\WpfApp\WpfApp.csproj", "{6CB9227A-1C18-42CD-8AE3-D24E20EF3073}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,13 +42,5 @@ Global
 		{1A9F6C9E-CF80-45F8-ACD4-9032012E9755}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A9F6C9E-CF80-45F8-ACD4-9032012E9755}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A9F6C9E-CF80-45F8-ACD4-9032012E9755}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3AF82896-7EBE-4094-A181-245B48F0F3E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3AF82896-7EBE-4094-A181-245B48F0F3E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3AF82896-7EBE-4094-A181-245B48F0F3E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3AF82896-7EBE-4094-A181-245B48F0F3E0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6CB9227A-1C18-42CD-8AE3-D24E20EF3073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CB9227A-1C18-42CD-8AE3-D24E20EF3073}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CB9227A-1C18-42CD-8AE3-D24E20EF3073}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CB9227A-1C18-42CD-8AE3-D24E20EF3073}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
