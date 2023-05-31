@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\CADElectricalSystem\\Data\\Data.csproj": {}
+    "C:\\workspace\\CADElectricalSystem_old\\Data\\Data.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\CADElectricalSystem\\Core\\Core.csproj": {
+    "C:\\workspace\\CADElectricalSystem_old\\Core\\Core.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\workspace\\CADElectricalSystem\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\workspace\\CADElectricalSystem_old\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\workspace\\CADElectricalSystem\\Core\\Core.csproj",
+        "projectPath": "C:\\workspace\\CADElectricalSystem_old\\Core\\Core.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {}
@@ -19,14 +19,14 @@
         "net48": {}
       }
     },
-    "C:\\workspace\\CADElectricalSystem\\Data\\Data.csproj": {
+    "C:\\workspace\\CADElectricalSystem_old\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\CADElectricalSystem\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\workspace\\CADElectricalSystem_old\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\workspace\\CADElectricalSystem\\Data\\Data.csproj",
+        "projectPath": "C:\\workspace\\CADElectricalSystem_old\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\shado\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\CADElectricalSystem\\Data\\obj\\",
+        "outputPath": "C:\\workspace\\CADElectricalSystem_old\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\DevExpress 22.1\\Components\\Offline Packages",
@@ -52,8 +52,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\workspace\\CADElectricalSystem\\Core\\Core.csproj": {
-                "projectPath": "C:\\workspace\\CADElectricalSystem\\Core\\Core.csproj"
+              "C:\\workspace\\CADElectricalSystem_old\\Core\\Core.csproj": {
+                "projectPath": "C:\\workspace\\CADElectricalSystem_old\\Core\\Core.csproj"
               }
             }
           }
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
