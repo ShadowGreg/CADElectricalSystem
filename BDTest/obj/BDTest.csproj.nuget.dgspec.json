@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\CADElectricalSystem\\BDTest\\BDTest.csproj": {}
+    "C:\\workspace\\CADElectricalSystem_old\\BDTest\\BDTest.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\CADElectricalSystem\\BDTest\\BDTest.csproj": {
+    "C:\\workspace\\CADElectricalSystem_old\\BDTest\\BDTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\CADElectricalSystem\\BDTest\\BDTest.csproj",
+        "projectUniqueName": "C:\\workspace\\CADElectricalSystem_old\\BDTest\\BDTest.csproj",
         "projectName": "BDTest",
-        "projectPath": "C:\\workspace\\CADElectricalSystem\\BDTest\\BDTest.csproj",
+        "projectPath": "C:\\workspace\\CADElectricalSystem_old\\BDTest\\BDTest.csproj",
         "packagesPath": "C:\\Users\\shado\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\CADElectricalSystem\\BDTest\\obj\\",
+        "outputPath": "C:\\workspace\\CADElectricalSystem_old\\BDTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\DevExpress 22.1\\Components\\Offline Packages",
@@ -37,8 +37,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\workspace\\CADElectricalSystem\\Core\\Core.csproj": {
-                "projectPath": "C:\\workspace\\CADElectricalSystem\\Core\\Core.csproj"
+              "C:\\workspace\\CADElectricalSystem_old\\Core\\Core.csproj": {
+                "projectPath": "C:\\workspace\\CADElectricalSystem_old\\Core\\Core.csproj"
               }
             }
           }
@@ -74,15 +74,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\workspace\\CADElectricalSystem\\Core\\Core.csproj": {
+    "C:\\workspace\\CADElectricalSystem_old\\Core\\Core.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\CADElectricalSystem\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\workspace\\CADElectricalSystem_old\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\workspace\\CADElectricalSystem\\Core\\Core.csproj",
+        "projectPath": "C:\\workspace\\CADElectricalSystem_old\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\shado\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace\\CADElectricalSystem_old\\Core\\obj\\",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "D:\\DevExpress 22.1\\Components\\Offline Packages",
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\shado\\Downloads": {},
+          "D:\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net48": {
             "projectReferences": {}

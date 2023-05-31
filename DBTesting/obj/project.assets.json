@@ -5210,11 +5210,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\CADElectricalSystem\\DBTesting\\DBTesting.csproj",
+      "projectUniqueName": "C:\\workspace\\CADElectricalSystem_old\\DBTesting\\DBTesting.csproj",
       "projectName": "DBTesting",
-      "projectPath": "C:\\workspace\\CADElectricalSystem\\DBTesting\\DBTesting.csproj",
+      "projectPath": "C:\\workspace\\CADElectricalSystem_old\\DBTesting\\DBTesting.csproj",
       "packagesPath": "C:\\Users\\shado\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\CADElectricalSystem\\DBTesting\\obj\\",
+      "outputPath": "C:\\workspace\\CADElectricalSystem_old\\DBTesting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\DevExpress 22.1\\Components\\Offline Packages",
@@ -5240,8 +5240,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\workspace\\CADElectricalSystem\\BDTest\\BDTest.csproj": {
-              "projectPath": "C:\\workspace\\CADElectricalSystem\\BDTest\\BDTest.csproj"
+            "C:\\workspace\\CADElectricalSystem_old\\BDTest\\BDTest.csproj": {
+              "projectPath": "C:\\workspace\\CADElectricalSystem_old\\BDTest\\BDTest.csproj"
             }
           }
         }
@@ -5293,7 +5293,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

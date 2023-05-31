@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\CADElectricalSystem\\CADElectricalSystem\\CADElectricalSystem.csproj": {}
+    "C:\\workspace\\CADElectricalSystem_old\\CADElectricalSystem\\CADElectricalSystem.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\CADElectricalSystem\\CADElectricalSystem\\CADElectricalSystem.csproj": {
+    "C:\\workspace\\CADElectricalSystem_old\\CADElectricalSystem\\CADElectricalSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\CADElectricalSystem\\CADElectricalSystem\\CADElectricalSystem.csproj",
+        "projectUniqueName": "C:\\workspace\\CADElectricalSystem_old\\CADElectricalSystem\\CADElectricalSystem.csproj",
         "projectName": "CADElectricalSystem",
-        "projectPath": "C:\\workspace\\CADElectricalSystem\\CADElectricalSystem\\CADElectricalSystem.csproj",
+        "projectPath": "C:\\workspace\\CADElectricalSystem_old\\CADElectricalSystem\\CADElectricalSystem.csproj",
         "packagesPath": "C:\\Users\\shado\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\CADElectricalSystem\\CADElectricalSystem\\obj\\",
+        "outputPath": "C:\\workspace\\CADElectricalSystem_old\\CADElectricalSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\DevExpress 22.1\\Components\\Offline Packages",
@@ -24,7 +24,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net48"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -34,8 +34,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net48": {
+            "targetAlias": "net48",
             "projectReferences": {}
           }
         },
@@ -46,25 +46,14 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+        "net48": {
+          "targetAlias": "net48",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
         }
       }
     }

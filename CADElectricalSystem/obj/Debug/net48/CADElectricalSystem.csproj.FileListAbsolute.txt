@@ -1,0 +1,6 @@
+C:\workspace\CADElectricalSystem_old\CADElectricalSystem\obj\Debug\net48\CADElectricalSystem.csproj.AssemblyReference.cache
+C:\workspace\CADElectricalSystem_old\CADElectricalSystem\obj\Debug\net48\CADElectricalSystem.csproj.SuggestedBindingRedirects.cache
+C:\workspace\CADElectricalSystem_old\CADElectricalSystem\obj\Debug\net48\CADElectricalSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\CADElectricalSystem_old\CADElectricalSystem\obj\Debug\net48\CADElectricalSystem.AssemblyInfoInputs.cache
+C:\workspace\CADElectricalSystem_old\CADElectricalSystem\obj\Debug\net48\CADElectricalSystem.AssemblyInfo.cs
+C:\workspace\CADElectricalSystem_old\CADElectricalSystem\obj\Debug\net48\CADElectricalSystem.csproj.CoreCompileInputs.cache

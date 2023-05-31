@@ -14,7 +14,7 @@ public class SinglePhaseConsumer : Consumer
     }
 
 
-    public override RatedCurrent getNominalCurrent()
+    public override ARatedCurrent getNominalCurrent()
     {
         return new RatedCurrent(Calculator.getSinglePhaseNominalCurrent(PowerFiled, VoltageFiled, Factor));
     }
